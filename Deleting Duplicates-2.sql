@@ -1,4 +1,4 @@
-
+--deleting Duplicates
 
 select * from  EmployeeRecords_1
 order by employeeid,email
@@ -40,5 +40,6 @@ delete from cte where dr = 2
 
 
 select * from  EmployeeRecords_1 ---empid 5 retain
+
 
 select * from  EmployeeRecords_2 --empid 6 retain
